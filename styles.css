@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: tomato;
+}
+.box {
+  margin: 0px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.underline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.category {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.btn {
+  background-color: aquamarine;
+  padding: 5px 2%;
+  border: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.orderBtn {
+  width: 30%;
+  color: white;
+  background-color: rgb(181, 42, 232);
+  padding: 5px 2%;
+  border: none;
+  border-radius: 5px;
+}
+.orderBtn:hover {
+  cursor: pointer;
+}
+.underline {
+  width: 80px;
+  height: 5px;
+  background-color: brown;
+  border-radius: 5px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.menuItem {
+  margin: 5px;
+  padding: 5px;
+  background-color: rgb(176, 247, 247);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 49%;
+  border-radius: 8px;
+}
+.menuItem .photo {
+  width: 35%;
+  border-radius: 5px;
+}
+.itemInfo {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: start;
+}
+.itemInfo header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
